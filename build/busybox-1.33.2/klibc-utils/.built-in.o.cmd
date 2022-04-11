@@ -1,0 +1,1 @@
+cmd_klibc-utils/built-in.o :=  rm -f klibc-utils/built-in.o; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcs klibc-utils/built-in.o

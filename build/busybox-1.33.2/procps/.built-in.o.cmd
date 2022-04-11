@@ -1,0 +1,1 @@
+cmd_procps/built-in.o :=  rm -f procps/built-in.o; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcs procps/built-in.o

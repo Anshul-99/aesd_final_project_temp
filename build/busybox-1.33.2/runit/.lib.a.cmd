@@ -1,0 +1,1 @@
+cmd_runit/lib.a := rm -f runit/lib.a; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar  rcs runit/lib.a runit/sv.o

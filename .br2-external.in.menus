@@ -1,0 +1,10 @@
+#
+# Automatically generated file; DO NOT EDIT.
+#
+
+menu "External options"
+
+comment "project_base (in /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/base_external)"
+source "/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/base_external/Config.in"
+
+endmenu

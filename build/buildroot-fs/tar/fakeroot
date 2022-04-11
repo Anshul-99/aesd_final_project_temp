@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/tar/target
+chown -h -R 1000:1000 '/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/tar/target//var/empty'
+/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/makedevs -d /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/full_devices_table.txt /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/tar/target
+   
+   
+   	(cd /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/tar/target; find -print0 | LC_ALL=C sort -z | tar  --pax-option=exthdr.name=%d/PaxHeaders/%f,atime:=0,ctime:=0 -cf /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/images/rootfs.tar --null --xattrs-include='*' --no-recursion -T - --numeric-owner)

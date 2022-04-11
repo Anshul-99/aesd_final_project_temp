@@ -1,0 +1,6 @@
+pr-support.o: ../../../libgcc/config/arm/pr-support.c unwind.h \
+ /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/host-gcc-final-9.4.0/build/gcc/include/unwind-arm-common.h
+
+unwind.h:
+
+/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/host-gcc-final-9.4.0/build/gcc/include/unwind-arm-common.h:

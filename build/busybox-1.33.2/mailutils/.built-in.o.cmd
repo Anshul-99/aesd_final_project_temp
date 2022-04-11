@@ -1,0 +1,1 @@
+cmd_mailutils/built-in.o :=  rm -f mailutils/built-in.o; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcs mailutils/built-in.o
