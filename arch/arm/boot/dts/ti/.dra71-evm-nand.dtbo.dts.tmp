@@ -1,0 +1,10 @@
+# 1 "arch/arm/boot/dts/ti/dra71-evm-nand.dtso"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/ti/dra71-evm-nand.dtso"
+/dts-v1/;
+/plugin/;
+
+&gpmc {
+ status = "okay";
+};

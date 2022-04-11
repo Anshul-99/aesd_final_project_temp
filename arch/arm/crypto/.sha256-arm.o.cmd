@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha256-arm.o := /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld  -EL    -r -o arch/arm/crypto/sha256-arm.o arch/arm/crypto/sha256-core.o arch/arm/crypto/sha256_glue.o arch/arm/crypto/sha256_neon_glue.o 

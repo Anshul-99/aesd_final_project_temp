@@ -1,2 +1,0 @@
-final-project,./usr/bin/temp_humidity
-final-project,./usr/bin/server

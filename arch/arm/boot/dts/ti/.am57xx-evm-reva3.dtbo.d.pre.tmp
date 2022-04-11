@@ -1,0 +1,1 @@
+am57xx-evm-reva3.o: arch/arm/boot/dts/ti/am57xx-evm-reva3.dtso

@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha512-arm.o := /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld  -EL    -r -o arch/arm/crypto/sha512-arm.o arch/arm/crypto/sha512-core.o arch/arm/crypto/sha512-glue.o arch/arm/crypto/sha512-neon-glue.o 

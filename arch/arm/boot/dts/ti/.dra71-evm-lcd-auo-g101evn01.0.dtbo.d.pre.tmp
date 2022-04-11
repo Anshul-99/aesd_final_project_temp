@@ -1,0 +1,4 @@
+dra71-evm-lcd-auo-g101evn01.0.o: \
+ arch/arm/boot/dts/ti/dra71-evm-lcd-auo-g101evn01.0.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

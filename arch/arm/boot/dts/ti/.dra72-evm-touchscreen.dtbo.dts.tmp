@@ -1,0 +1,18 @@
+# 1 "arch/arm/boot/dts/ti/dra72-evm-touchscreen.dtso"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/ti/dra72-evm-touchscreen.dtso"
+
+
+
+
+
+/dts-v1/;
+/plugin/;
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 9 "arch/arm/boot/dts/ti/dra72-evm-touchscreen.dtso" 2
+
+&touchscreen {
+ interrupt-parent = <&gpio1>;
+ interrupts = <15 2>;
+};

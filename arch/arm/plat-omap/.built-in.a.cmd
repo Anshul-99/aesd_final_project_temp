@@ -1,0 +1,1 @@
+cmd_arch/arm/plat-omap/built-in.a := rm -f arch/arm/plat-omap/built-in.a; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD arch/arm/plat-omap/built-in.a arch/arm/plat-omap/sram.o arch/arm/plat-omap/dma.o arch/arm/plat-omap/counter_32k.o

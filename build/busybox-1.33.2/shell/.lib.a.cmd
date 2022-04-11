@@ -1,1 +1,0 @@
-cmd_shell/lib.a := rm -f shell/lib.a; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar  rcs shell/lib.a shell/ash.o shell/ash_ptr_hack.o shell/math.o shell/random.o shell/shell_common.o

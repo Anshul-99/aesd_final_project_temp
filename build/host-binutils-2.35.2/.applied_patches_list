@@ -1,8 +1,0 @@
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0001-sh-conf.patch
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0002-poison-system-directories.patch
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0003-or1k-Fix-issue-with-plt-link-failure-for-local-calls.patch
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0004-or1k-Implement-relocation-R_OR1K_GOT_AHI16-for-gotha.patch
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0005-or1k-Avoid-R_OR1K_GOT16-overflow-failures-in-presenc.patch
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0006-or1k-Support-large-plt_relocs-when-generating-plt-en.patch
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0007-bfd-elf32-or1k-fix-building-with-gcc-version-5.patch
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/package/binutils//2.35.2/0008-or1k-fix-pc-relative-relocation-against-dynamic-on-P.patch

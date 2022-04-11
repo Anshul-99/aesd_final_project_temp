@@ -1,1 +1,0 @@
-cmd_printutils/lib.a := rm -f printutils/lib.a; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar  rcs printutils/lib.a 

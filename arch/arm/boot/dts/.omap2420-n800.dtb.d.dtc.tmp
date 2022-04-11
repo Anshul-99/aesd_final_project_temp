@@ -1,0 +1,1 @@
+arch/arm/boot/dts/omap2420-n800.dtb: arch/arm/boot/dts/.omap2420-n800.dtb.dts.tmp arch/arm/boot/dts/omap24xx-clocks.dtsi arch/arm/boot/dts/omap2420-clocks.dtsi

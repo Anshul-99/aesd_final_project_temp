@@ -1,1 +1,0 @@
-cmd_applets/built-in.o :=  /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc -nostdlib -nostdlib  -r -o applets/built-in.o applets/applets.o

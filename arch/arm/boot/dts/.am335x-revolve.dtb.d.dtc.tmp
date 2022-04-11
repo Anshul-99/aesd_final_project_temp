@@ -1,0 +1,1 @@
+arch/arm/boot/dts/am335x-revolve.dtb: arch/arm/boot/dts/.am335x-revolve.dtb.dts.tmp arch/arm/boot/dts/tps65217.dtsi

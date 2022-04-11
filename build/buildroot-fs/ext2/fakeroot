@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-chown -h -R 0:0 /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/ext2/target
-chown -h -R 1000:1000 '/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/ext2/target//var/empty'
-/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/makedevs -d /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/full_devices_table.txt /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/ext2/target
-   
-   
-   	rm -f /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/images/rootfs.ext2
-	/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/sbin/mkfs.ext4 -d /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/buildroot-fs/ext2/target -r 1 -N 0 -m 5 -L "rootfs" -O ^64bit /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/images/rootfs.ext2 "60M" || { ret=$?; echo "*** Maybe you need to increase the filesystem size (BR2_TARGET_ROOTFS_EXT2_SIZE)" 1>&2; exit $ret; }

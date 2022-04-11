@@ -1,0 +1,1 @@
+lcd-osd101t2045.o: arch/arm/boot/dts/ti/lcd-osd101t2045.dtso

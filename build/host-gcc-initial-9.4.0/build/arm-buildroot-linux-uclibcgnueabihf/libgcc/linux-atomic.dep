@@ -1,1 +1,0 @@
-linux-atomic.o: ../../../libgcc/config/arm/linux-atomic.c

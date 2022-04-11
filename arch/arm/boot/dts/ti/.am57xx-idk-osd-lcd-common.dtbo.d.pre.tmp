@@ -1,0 +1,4 @@
+am57xx-idk-osd-lcd-common.o: \
+ arch/arm/boot/dts/ti/am57xx-idk-osd-lcd-common.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

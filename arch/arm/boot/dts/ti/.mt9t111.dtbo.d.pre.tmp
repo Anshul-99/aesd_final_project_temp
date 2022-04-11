@@ -1,0 +1,2 @@
+mt9t111.o: arch/arm/boot/dts/ti/mt9t111.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

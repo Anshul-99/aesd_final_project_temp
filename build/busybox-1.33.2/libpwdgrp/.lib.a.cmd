@@ -1,1 +1,0 @@
-cmd_libpwdgrp/lib.a := rm -f libpwdgrp/lib.a; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar  rcs libpwdgrp/lib.a libpwdgrp/uidgid_get.o

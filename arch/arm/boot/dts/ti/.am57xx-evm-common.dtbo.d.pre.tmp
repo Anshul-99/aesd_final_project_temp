@@ -1,0 +1,5 @@
+am57xx-evm-common.o: arch/arm/boot/dts/ti/am57xx-evm-common.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h

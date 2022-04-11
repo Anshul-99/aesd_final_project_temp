@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/Image := /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-objcopy -O binary -R .comment -S  vmlinux arch/arm/boot/Image

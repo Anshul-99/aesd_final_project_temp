@@ -1,1 +1,0 @@
-bpabi.o: ../../../libgcc/config/arm/bpabi.c

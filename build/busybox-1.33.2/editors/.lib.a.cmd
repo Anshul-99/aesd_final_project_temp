@@ -1,1 +1,0 @@
-cmd_editors/lib.a := rm -f editors/lib.a; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar  rcs editors/lib.a editors/awk.o editors/cmp.o editors/diff.o editors/patch.o editors/sed.o editors/vi.o

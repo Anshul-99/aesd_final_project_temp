@@ -1,0 +1,2 @@
+dra74-evm-touchscreen.o: arch/arm/boot/dts/ti/dra74-evm-touchscreen.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

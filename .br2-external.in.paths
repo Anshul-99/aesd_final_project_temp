@@ -1,8 +1,0 @@
-#
-# Automatically generated file; DO NOT EDIT.
-#
-
-config BR2_EXTERNAL_project_base_PATH
-	string
-	default "/home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/base_external"
-

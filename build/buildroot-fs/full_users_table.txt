@@ -1,2 +1,0 @@
-   	sshd -1 sshd -1 * /var/empty - - SSH drop priv user
-

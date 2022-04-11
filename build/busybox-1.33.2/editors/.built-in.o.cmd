@@ -1,1 +1,0 @@
-cmd_editors/built-in.o :=  rm -f editors/built-in.o; /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcs editors/built-in.o

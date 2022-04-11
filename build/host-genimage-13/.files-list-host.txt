@@ -1,1 +1,0 @@
-host-genimage,./bin/genimage

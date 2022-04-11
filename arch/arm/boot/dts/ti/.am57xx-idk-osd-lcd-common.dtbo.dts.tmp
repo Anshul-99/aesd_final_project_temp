@@ -1,0 +1,64 @@
+# 1 "arch/arm/boot/dts/ti/am57xx-idk-osd-lcd-common.dtso"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/ti/am57xx-idk-osd-lcd-common.dtso"
+
+
+
+
+
+/dts-v1/;
+/plugin/;
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 9 "arch/arm/boot/dts/ti/am57xx-idk-osd-lcd-common.dtso" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "arch/arm/boot/dts/ti/am57xx-idk-osd-lcd-common.dtso" 2
+
+/ {
+  fragment@101 {
+ target-path = "/";
+
+ __overlay__ {
+  aliases {
+   display0 = "/display";
+   display1 = "/connector";
+  };
+
+  lcd_bl: backlight {
+   compatible = "pwm-backlight";
+   pwms = <&ecap0 0 50000 1>;
+   brightness-levels = <0 51 53 56 62 75 101 152 255>;
+   default-brightness-level = <8>;
+  };
+ };
+  };
+};
+
+&dsi_bridge {
+ status = "okay";
+};
+
+&i2c1 {
+ touchscreen: edt-ft5506@38 {
+  status = "okay";
+  compatible = "edt,edt-ft5506", "edt,edt-ft5x06";
+
+  reg = <0x38>;
+
+
+  reset-gpios = <&gpio6 15 1>;
+
+  touchscreen-size-x = <1920>;
+  touchscreen-size-y = <1200>;
+
+  wakeup-source;
+ };
+};
+
+&epwmss0 {
+ status = "okay";
+};
+
+&ecap0 {
+ status = "okay";
+};

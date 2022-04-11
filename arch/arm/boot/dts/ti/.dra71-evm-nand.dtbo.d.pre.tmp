@@ -1,0 +1,1 @@
+dra71-evm-nand.o: arch/arm/boot/dts/ti/dra71-evm-nand.dtso

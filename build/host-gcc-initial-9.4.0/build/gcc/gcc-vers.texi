@@ -1,5 +1,0 @@
-@set version-GCC 9.4.0
-@clear DEVELOPMENT
-@set srcdir /home/anshul/aesd/FinalProject_Buildroot_Client/assignment-5-Anshul-99/buildroot/output/build/host-gcc-initial-9.4.0/build/gcc/../../gcc
-@set VERSION_PACKAGE (Buildroot 2021.02.11-6-g7a1c2492d2) 
-@set BUGURL @uref{http://bugs.buildroot.net/}

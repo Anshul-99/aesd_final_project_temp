@@ -1,0 +1,22 @@
+!<thin>
+//                                              378       `
+../../../drivers/oprofile/oprof.o/
+../../../drivers/oprofile/cpu_buffer.o/
+../../../drivers/oprofile/buffer_sync.o/
+../../../drivers/oprofile/event_buffer.o/
+../../../drivers/oprofile/oprofile_files.o/
+../../../drivers/oprofile/oprofilefs.o/
+../../../drivers/oprofile/oprofile_stats.o/
+../../../drivers/oprofile/timer_int.o/
+../../../drivers/oprofile/oprofile_perf.o/
+common.o/
+/0              0           0     0     644     20060     `
+/35             0           0     0     644     29976     `
+/75             0           0     0     644     29688     `
+/116            0           0     0     644     20308     `
+/158            0           0     0     644     14776     `
+/202            0           0     0     644     26148     `
+/242            0           0     0     644     15468     `
+/286            0           0     0     644     22964     `
+/325            0           0     0     644     32496     `
+/368            0           0     0     644     22444     `

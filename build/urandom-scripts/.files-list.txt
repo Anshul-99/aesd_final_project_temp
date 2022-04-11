@@ -1,1 +1,0 @@
-urandom-scripts,./etc/init.d/S20urandom

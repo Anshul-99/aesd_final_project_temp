@@ -1,4 +1,0 @@
-uclibc,./bin/ldd
-uclibc,./bin/arm-buildroot-linux-uclibcgnueabihf-ldd
-uclibc,./bin/ldconfig
-uclibc,./bin/arm-buildroot-linux-uclibcgnueabihf-ldconfig

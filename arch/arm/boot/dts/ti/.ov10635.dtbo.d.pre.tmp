@@ -1,0 +1,2 @@
+ov10635.o: arch/arm/boot/dts/ti/ov10635.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

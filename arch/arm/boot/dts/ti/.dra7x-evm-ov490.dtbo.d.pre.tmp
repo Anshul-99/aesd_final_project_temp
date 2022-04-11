@@ -1,0 +1,2 @@
+dra7x-evm-ov490.o: arch/arm/boot/dts/ti/dra7x-evm-ov490.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

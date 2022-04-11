@@ -1,0 +1,56 @@
+# 1 "arch/arm/boot/dts/ti/dra7x-evm-ov490.dtso"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/ti/dra7x-evm-ov490.dtso"
+
+
+
+
+
+/dts-v1/;
+/plugin/;
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 9 "arch/arm/boot/dts/ti/dra7x-evm-ov490.dtso" 2
+
+&i2c5 {
+ gpio_csi2_adap: tca6416@20 {
+  status = "okay";
+  compatible = "ti,tca6416";
+  reg = <0x20>;
+  gpio-controller;
+  #gpio-cells = <2>;
+ };
+
+ ov490@24 {
+  compatible = "ovti,ov490";
+  reg = <0x24>;
+
+  mux-gpios = <&gpio_csi2_adap 0 1>,
+
+       <&gpio_csi2_adap 1 0>,
+
+       <&gpio_csi2_adap 3 0>,
+
+       <&gpio_csi2_adap 4 1>;
+
+  port {
+   csi2_cam0: endpoint@0 {
+    clock-lanes = <0>;
+    data-lanes = <1 2 3 4>;
+    remote-endpoint = <&csi2_phy0>;
+   };
+  };
+ };
+};
+
+&cal {
+ status = "okay";
+};
+
+&csi2_0 {
+ csi2_phy0: endpoint@0 {
+  clock-lanes = <0>;
+  data-lanes = <1 2 3 4>;
+  remote-endpoint = <&csi2_cam0>;
+ };
+};
